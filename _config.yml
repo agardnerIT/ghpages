@@ -35,7 +35,7 @@ color:
 footer:
   copyright: Joe Bloggs
   location: Location
-  social: Around the Web
+  social: Socials
 #  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -58,9 +58,9 @@ social:
 #    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
-address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+#address:
+#  - line: 3481 Melrose Place
+#  - line: Beverly Hills, CA 90210
 
 # Credits content
 # credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
