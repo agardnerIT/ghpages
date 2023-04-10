@@ -183,6 +183,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
+    color: #{{ site.color.font }}
 }
 
 section.success {
