@@ -492,7 +492,7 @@ footer .footer-below {
   flex-wrap: nowrap;
 }
 
-.left {
+.left, p {
     width: 20%;
     max-width: 20%;
     float: left;
