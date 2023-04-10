@@ -33,7 +33,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Joe Bloggs
   location: Location
   social: Around the Web
 #  credits: Credits
@@ -44,6 +44,8 @@ social:
     url: https://linkedin.com
   - title: instagram
     url: https://instagram.com
+  - title: envelope
+    url: "mailto:joe@bloggs.com"
 #  - title: twitter
 #    url: http://twitter.com/jekyllrb
 #  - title: facebook
