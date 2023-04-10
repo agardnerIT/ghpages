@@ -1,9 +1,10 @@
 # Site settings
-title: Geordie Lass | Blah | Joe Bloggs
+name: Joe Bloggs
+title: Geordie Lass | Northern VO Artist
 email: your-email@domain.com
 url: https://example.com
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+keywords: "geordie, northern lass, voiceover artist"
 skills: "Foo - Bar - Web Developer - Graphic Artist - User Experience Designer"
 meta_author: LastName FirstName
 
