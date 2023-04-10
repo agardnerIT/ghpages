@@ -173,7 +173,6 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
-    color: #{{ site.color.primary }};
     background-color: #{{ site.color.primary }};
 }
 
