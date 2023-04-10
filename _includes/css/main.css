@@ -136,7 +136,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        color: #000;
+        color: #{{site.color.link}};
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -173,7 +173,8 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
-    background-color:#{{ site.color.primary }};
+    color: #{{site.color.link}};
+    background-color:#{{ site.color.link-active }};
 }
 
 section {

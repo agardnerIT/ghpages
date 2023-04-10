@@ -26,6 +26,7 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
+  link: ffffff
   link-active: ffffff
   font: 000000
   # Orange colour
