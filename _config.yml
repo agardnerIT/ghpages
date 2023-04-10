@@ -1,11 +1,11 @@
 ### Site Settings ###
 title               : Test Site
 description         : >-
-                      I blah3 turn coffee :coffee: into code,
+                      I blah4 turn coffee :coffee: into code,
                       use tabs over spaces
                       and never broke production.
-baseurl             : "https://agardnerit.github.io"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : "agardnerit/ghpages"     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : "blahghpages"     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : "YoussefRaafatNasry/portfolYOU"
 
 
