@@ -483,3 +483,26 @@ footer .footer-below {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
 }
+
+/* AG Custom */
+
+.headshot-container {
+  display: flex; /* or inline-flex */
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.left {
+    width: 20%;
+    max-width: 20%;
+    float: left;
+    text-align: center;
+    background: rgba(0, 0, 0, 1);
+    color: #fff;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+}
+
+.right {
+    width: 80%;
+    max-width: 80%;
+}
