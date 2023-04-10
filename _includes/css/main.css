@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.font }};
 }
 
 h1,
@@ -83,7 +83,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.secondary }};
 }
 
 header .container {
@@ -183,7 +183,7 @@ section h2 {
 
 section.success {
     /*color: #fff;*/
-    background: #{{ site.color.primary }};
+    background: #{{ site.color.secondary }};
 }
 
 @media(max-width:767px) {
@@ -486,13 +486,13 @@ footer .footer-below {
 
 /* AG Custom */
 
-.headshot-container {
+.portfolio-image-headshot-container {
   display: flex; /* or inline-flex */
   flex-direction: row;
   flex-wrap: nowrap;
 }
 
-.left, p {
+.portfolio-image-headshot-left, p {
     width: 20%;
     max-width: 20%;
     float: left;
@@ -502,7 +502,7 @@ footer .footer-below {
     font: bold 24px/45px Helvetica, Sans-Serif;
 }
 
-.right {
+.portfolio-image-headshot-right {
     width: 80%;
     max-width: 80%;
 }
