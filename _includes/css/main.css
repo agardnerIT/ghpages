@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    color: #ffb00f;
+    color: #{{site.color.font}};
 }
 
 p {
@@ -23,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.font }};
+    color: #{{ site.color.link-active }};
 }
 
 h1,
@@ -35,6 +35,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #{{site.color.font}};
 }
 
 hr.star-light,
@@ -46,6 +47,7 @@ hr.star-primary {
     border-top: solid 5px;
     text-align: center;
     overflow: visible;
+    color: #{{site.color.primary}}
 }
 
 hr.star-light:after,
