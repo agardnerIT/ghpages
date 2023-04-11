@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    color: #{{site.color.font}};
+    color: #{{site.color.dark-text}};
 }
 
 p {
@@ -23,7 +23,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.link-active }};
+    color: #{{ site.color.light-text }};
 }
 
 h1,
@@ -35,7 +35,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    color: #{{site.color.font}};
+    color: #{{site.color.}};
 }
 
 hr.star-light,
@@ -136,7 +136,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        color: #{{site.color.link}};
+        color: #{{site.color.light-text}};
         font-size: 2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
@@ -183,7 +183,7 @@ section {
 section h2 {
     margin: 0;
     font-size: 3em;
-    color: #{{ site.color.font }};
+    color: #{{ site.color.dark-text }};
 }
 
 section.success {
@@ -299,7 +299,7 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.link-active }};
+    color: #{{ site.color.light-text }};
     background: #fff;
 }
 
