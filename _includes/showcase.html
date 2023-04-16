@@ -9,14 +9,9 @@
       </h3>
       <hr>
       <audio controls>
-        <source src="{{ site.audio-reel }}" type="audio/mpeg">
+        <source src="{% if site.baseurl %}{{site.baseurl}}{% else %}{% endif %}{{ site.audio-reel }}" type="audio/mpeg">
         Your browser does not support the audio element.
       </audio>
-      <!---
-      <a href="{{site.url}}{{site.baseurl}}/#about"
-        class="button is-white is-rounded is-outlined is-uppercase has-text-weight-normal">Read MoreX</a>
-      </a>
-      -->
     </div>
   </div>
 </section>
