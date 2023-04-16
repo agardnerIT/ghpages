@@ -8,8 +8,7 @@ big-image: /assets/images/alex-headshot.jpg
 small-image: /assets/images/alex-headshot.jpg
 email: someone@example.com
 about-snippet: >-
-  I am a student at Marist College and I am 21 years old. I enjoy playing golf,
-  music producing, and coding.
+  The "about me" snippet...
 
 menu-items:
   - title: "Home"
