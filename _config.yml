@@ -1,83 +1,81 @@
-# Site settings
-name: Joe Bloggs
-title: Geordie Lass | Northern VO Artist
-email: your-email@domain.com
-url: https://example.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "geordie, northern lass, voiceover artist"
-skills: "Foo - Bar - Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
-
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
-contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
-disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  light-text: f5f5f5
-  dark-text: 000000
-  font: 7FFFD4
-  # Orange colour
-  primary: f8a811 #f5f5f5 #ebc845 # c89f09 #18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  # Grey
-  secondary: f5f5f5 #2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
-
-# Footer settings
-footer:
-  copyright: Joe Bloggs
-  location: Location
-  social: Socials
-#  credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: linkedin
-    url: https://linkedin.com
-  - title: instagram
-    url: https://instagram.com
-  - title: envelope
-    url: "mailto:joe@bloggs.com"
-#  - title: twitter
-#    url: http://twitter.com/jekyllrb
-#  - title: facebook
-#    url:
-#  - title: stack-overflow
-#    url: http://stackoverflow.com/questions/tagged/jekyll
-#  - title: bitbucket
-#    url: http://bitbucket.org/jekyll
-#  - title: github
-#    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-#address:
-#  - line: 3481 Melrose Place
-#  - line: Beverly Hills, CA 90210
-
-# Credits content
-# credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-
-# Build settings
 markdown: kramdown
-permalink: pretty
+title: Tahnee Alexandra
+name: Tahnee Alexandra
+description: Geordie Lass | Northern VO Artist
+audio-reel: /assets/audio/reel.mp3
+site-keywords: 'geordie, voiceover, voiceover artist'
+big-image: /assets/images/alex-headshot.jpg
+small-image: /assets/images/alex-headshot.jpg
+email: someone@example.com
+about-snippet: >-
+  I am a student at Marist College and I am 21 years old. I enjoy playing golf,
+  music producing, and coding.
 
-#for posts
+menu-items:
+  - title: "Home"
+    page: "/"
+  - title: "Listen"
+    page: "/listen"
+  - title: "Studio"
+    page: "/studio"
+  - title: "How It Works"
+    page: "/howitworks"
+  - title: "About Me"
+    page: "/about"
+  - title: "Contact"
+    page: "/contact"
+
+# Social links
+
+#facebook_username: DUMMY
+#twitter_username: DUMMY
+#instagram_username: DUMMY
+#linkedin_username: DUMMY
+#youtube_channel_id: UCk_12ABCD-U_ABCD1234ABC
+#google-analytics: UA-12345679-1
+
+# Colours
+colours:
+  orange: "ffb00f"
+  black: "000000"
+  light-gray: "f8f8f8"
+  dark-gray: "282828"
+
+##########################################
+# DO NOT CHANGE ANYTHING BELOW THIS LINE
+##########################################
+url: ''
+baseurl: null
+sass:
+  sass_dir: _sass
+  style: compressed
+plugins:
+  - jekyll-admin
+  - jekyll-feed
+permalink: 'blog/:title'
+compress_html:
+  clippings: all
 defaults:
   - scope:
-      path: ""
-      type: "posts"
+      type: posts
     values:
-      permalink: ""
+      layout: post
+      post-image: ''
+      description: ''
+      tags:
+        - ''
+  - scope:
+      type: pages
+    values:
+      layout: page
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

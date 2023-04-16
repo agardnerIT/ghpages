@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-13T19:00:09+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Tahnee Alexandra</title><subtitle>Geordie Lass | Northern VO Artist</subtitle><entry><title type="html">Blog Post Template</title><link href="http://localhost:4000/blog/Template" rel="alternate" type="text/html" title="Blog Post Template" /><published>2022-10-03T00:00:00+01:00</published><updated>2022-10-03T00:00:00+01:00</updated><id>http://localhost:4000/blog/Template</id><content type="html" xml:base="http://localhost:4000/blog/Template"><![CDATA[<h1 id="welcome-to-blog-1">Welcome to Blog 1.</h1>
+<p>I will be going over the key takeaways from lesson 1.
+In lesson 1, we learn the basics of GitHub and what System Design is all about.
+We learn the difference between Git and GitHub. 
+We also learn what Git add, Git commit, Git push, Git rm, and Git branch do and how to execute them. 
+Utilizing these techniques through the terminal and on the cloud through GitHub.
+We use these to create our work from an IDE and upload it to a repository in the cloud.</p>
+
+<p><img src="https://miro.medium.com/max/910/1*Wjxx83j-qyiNvFBy1yOA1w.jpeg" alt="git" /></p>]]></content><author><name></name></author><category term="sample" /><category term="post" /><category term="test" /><summary type="html"><![CDATA[Description Here...]]></summary></entry></feed>
