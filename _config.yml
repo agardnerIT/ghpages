@@ -44,7 +44,7 @@ colours:
 # DO NOT CHANGE ANYTHING BELOW THIS LINE
 ##########################################
 url: ''
-baseurl: null
+baseurl: "/ghpages"
 sass:
   sass_dir: _sass
   style: compressed
