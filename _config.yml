@@ -2,7 +2,7 @@ markdown: kramdown
 title: Tahnee Alexandra
 name: Tahnee Alexandra
 description: Geordie Lass | Northern VO Artist
-audio-reel: /assets/audio/reel.mp3
+audio-reel: /ghpages/assets/audio/reel.mp3
 site-keywords: 'geordie, voiceover, voiceover artist'
 big-image: /ghpages/assets/images/alex-headshot.jpg
 small-image: /ghpages/assets/images/alex-headshot.jpg
@@ -44,7 +44,7 @@ colours:
 # DO NOT CHANGE ANYTHING BELOW THIS LINE
 ##########################################
 url: ''
-baseurl: "/ghpages"
+baseurl: ''
 sass:
   sass_dir: _sass
   style: compressed
