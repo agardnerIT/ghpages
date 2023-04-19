@@ -62,7 +62,7 @@ a.navbar-item.is-active {
 
     &::before {
         /*filter: blur(0.1rem);*/
-        background-image: url({{site.big-image}});
+        background-image: url({{site.url}}{{site.baseurl}}{{site.big-image}});
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
