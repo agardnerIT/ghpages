@@ -3,10 +3,11 @@
     <div class="container has-text-centered has-background-grey-darker" id="backtotop">
         <a class="has-text-white" onclick="window.scroll(0,0)">BACK TO TOP</a>
     </div>
-    <!--Footer Main Section-->
+    <!--
+    <!--Footer Main Section--
     <div class="has-background-grey-darker">
         <div class="container columns">
-            <!--Name Section-->
+            <!--Name Section--
             {% assign about-item = site.menu-items | where:"title", "About Me" | first %}
             <div class="column has-text-left-desktop has-text-centered-mobile">
                 <a href="{{site.url}}{{site.baseurl}}{{about-item.page}}">
@@ -26,7 +27,7 @@
                 </a>
             </div>
 
-            <!--Link Section-->
+            <!--Link Section--
             <div class="column has-text-white">
                 <h3>More Links</h3>
                 {% for sitepage in site.html_pages offset: 4 %}
@@ -38,7 +39,7 @@
                 {% endfor %}
             </div>
 
-            <!--Blog-post Section-->
+            <!--Blog-post Section--
             <div class="column has-text-white">
                 <h3>Recent Posts</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
@@ -49,4 +50,5 @@
             </div>
         </div>
     </div>
+-->
 </footer>
