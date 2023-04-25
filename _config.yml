@@ -3,8 +3,8 @@ name: Tahnee Alexandra
 description: Geordie Lass | Northern VO Artist
 audio-reel: /assets/audio/reel.mp3
 site-keywords: 'geordie, voiceover, voiceover artist'
-big-image: assets/images/alex-headshot.jpg
-small-image: assets/images/alex-headshot.jpg
+big-image: /assets/images/alex-headshot.jpg
+small-image: /assets/images/alex-headshot.jpg
 email: someone@example.com
 about-snippet: >-
   The "about me" snippet...
