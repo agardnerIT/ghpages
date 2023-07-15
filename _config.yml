@@ -12,8 +12,6 @@ about-snippet: >-
 menu-items:
   - title: "Home"
     page: "/"
-  - title: "Listen"
-    page: "/listen"
   - title: "Studio"
     page: "/studio"
   - title: "How It Works"
