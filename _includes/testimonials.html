@@ -1,0 +1,22 @@
+<section class="section">
+    <div class="container">
+        <h2 class="title has-text-black is-size-2 is-uppercase has-text-weight-bold">
+        Testimonials
+        </h2>
+    </div>
+    <div class="container">
+            {% for testimonial in site.data.testimonials %}
+
+            <div class="card is-centered is-mobile" style="margin-top: 20px;">
+                <div class="card-content">
+                    <p class="title is-5">
+                        {{ testimonial.text }}
+                    </p>
+                    <p class="subtitle is-4" style="margin-top: 20px">
+                        {{ testimonial.author }}
+                    </p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

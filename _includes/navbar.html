@@ -20,7 +20,7 @@
             <!-- <div class="navbar-start"></div> -->
             <!-- navbar items | right side -->
             <div class="navbar-end">
-                {% for item in site.menu-items %}
+                {% for item in site.data.menu-items %}
                   <a class="navbar-item" href="{{site.url}}{{site.baseurl}}{{item.page}}">{{ item.title }}</a>
                 {% endfor%}
             </div>

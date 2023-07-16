@@ -6,29 +6,12 @@ site-keywords: 'geordie, voiceover, voiceover artist'
 big-image: /assets/images/alex-headshot.jpg
 small-image: /assets/images/alex-headshot.jpg
 email: someone@example.com
-about-snippet: >-
-  The "about me" snippet...
 
-menu-items:
-  - title: "Home"
-    page: "/"
-  - title: "Studio"
-    page: "/studio"
-  - title: "How It Works"
-    page: "/howitworks"
-  - title: "About Me"
-    page: "/about"
-  - title: "Contact"
-    page: "/contact"
-
-highlight-reel:
-  - title: "Tyne & Wear Metro - Part of Everyday Life"
-    youtube-id: "iSBNVqIP0sA"
 # Social links
 
 #facebook_username: DUMMY
-#twitter_username: DUMMY
-#instagram_username: DUMMY
+twitter_username: alexandratahnee
+instagram_username: alex_tahnee_voiceover
 #linkedin_username: DUMMY
 #youtube_channel_id: UCk_12ABCD-U_ABCD1234ABC
 #google-analytics: UA-12345679-1
