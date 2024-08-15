@@ -4,7 +4,7 @@
         <ul>
             {% for thing in site.progressbar.howitworks %}
               <li>
-                  <input type="checkbox" id="howitworks.{{ thing }}">
+                  <input type="checkbox" id="howitworks.{{page.id}}.{{page.path}}.{{page.dir}}.{{ thing }}">
                   <label>{{ thing }}</label>
               </li>
             {% endfor %}
