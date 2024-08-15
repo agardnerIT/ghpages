@@ -29,9 +29,9 @@ progressbar:
     - "secondIndex"
     - "thirdIndex"
   howitworks:
-    - "first"
-    - "second"
-    - "third"
+    - first
+    - second
+    - third
 
 ##########################################
 # DO NOT CHANGE ANYTHING BELOW THIS LINE
