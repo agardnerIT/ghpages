@@ -24,11 +24,11 @@ colours:
   dark-gray: "282828"
 
 progressbar:
-  index:
+  - index:
     - "firstIndex"
     - "secondIndex"
     - "thirdIndex"
-  howitworks:
+  - howitworks:
     - "first"
     - "second"
     - "third"
