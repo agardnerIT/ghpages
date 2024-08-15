@@ -1,28 +1,23 @@
 <script>
-    // CHECKBOX LIST WITH PROGRESS BAR AND LOCAL STORAGE
     var checkboxinputs = document.querySelectorAll(".checklist-progressbar input[type='checkbox']");
     var progressbar = document.querySelector('.checklist-progressbar .progressbar-inner');
     var progressbarvalue = document.querySelector('.checklist-progressbar .progressbar-value');
     var progresspercentageNum = 0;
     var progresspercentage = "0%";
 
-    // add event listener to detect checkbox changes
     for ( var i = 0, len = checkboxinputs.length; i < len; i++ ) {
     
-        // if checkbox has an id, initialize local storage for all with key = id
         var box = checkboxinputs[i];
         if (box.hasAttribute("id")) {
             setupLocalStorage(box);
         }
         
-        // on click event listener
         checkboxinputs[i].addEventListener('click', function(e) {    
             checkNumberofChecked();
             updateProgressbar();
         });
     };
     
-    // CALCULATE TOTAL NUMBER OF CHECKED BOXES
     function checkNumberofChecked() {
         var checkedboxes = 0;
         for ( var i = 0, len = checkboxinputs.length; i < len; i++ ) {
@@ -34,7 +29,6 @@
         progresspercentage = ((checkedboxes / checkboxinputs.length) * 100) + "%";
     };
     
-    // UPDATE THE PROGRESS BAR
     function updateProgressbar() {
         if (progresspercentageNum < 100) {
             progressbar.style.backgroundColor = "blue";
@@ -46,12 +40,10 @@
         progressbarvalue.innerHTML = Math.round(progresspercentageNum) + "%";
     };
     
-    // SETUP LOCAL STORAGE
     function setupLocalStorage(box) {
         var storageId = box.getAttribute("id");
         var oldVal    = localStorage.getItem(storageId);
         
-        // initial sync with local storage
         if (oldVal == "true") {
             box.checked = true;
         } else {
@@ -69,7 +61,6 @@
         });
     };
     
-    // INIT PROGRESS BAR 
     checkNumberofChecked();
     updateProgressbar();
 </script>
