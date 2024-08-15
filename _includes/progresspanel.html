@@ -1,5 +1,5 @@
 {% capture dynamic_key %}progressbar.{{ page.id }}{% endcapture %}
-{% assign items = site.data[dynamic_key] %}
+{% assign items = site.config[dynamic_key] %}
 
 <div class="floating-panel">
     <h2>Page Progress 16 | +{{ page.id }}={{ dynamic_key }}=</h2>
