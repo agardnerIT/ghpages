@@ -23,6 +23,12 @@ colours:
   light-gray: "f8f8f8"
   dark-gray: "282828"
 
+progressbar:
+  howitworks:
+    - "first"
+    - "second"
+    - "third"
+
 ##########################################
 # DO NOT CHANGE ANYTHING BELOW THIS LINE
 ##########################################
