@@ -1,12 +1,16 @@
 <div class="floating-panel">
-    <h2>Page Progress 7</h2>
+    <h2>Page Progress 8</h2>
     <div class="checklist-progressbar">
         <ul>
             {% for thing in site.progressbar.{{ page.id }} %}
-              <li>
-                  <input type="checkbox" id="{{ thing }}">
-                  <label>{{ thing }}</label>
-              </li>
+              {% if thing == {{ page.id }} %}
+                 {% for subthing in thing %}
+                  <li>
+                      <input type="checkbox" id="{{ subthing }}">
+                      <label>{{ subthing }}</label>
+                  </li>
+                  {% endfor %}
+              {% endif %}
             {% endfor %}
         </ul>
         <div class="progressbar">
