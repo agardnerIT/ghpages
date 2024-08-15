@@ -2,7 +2,7 @@
     <h2>Page Progress</h2>
     <div class="checklist-progressbar">
         <ul>
-            {% for thing in site.progressbar.{{page.path}} %}
+            {% for thing in site.progressbar."howitworks.md" %}
               <li>
                   <input type="checkbox" id="{{page.path}}-{{ thing }}">
                   <label>{{ thing }}</label>
