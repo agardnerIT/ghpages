@@ -1,0 +1,17 @@
+<div class="floating-panel">
+    <h2>Page Progress</h2>
+    <div class="checklist-progressbar">
+        <ul>
+            {% for thing in site.progressbar.howitworks %}
+              <li>
+                  <input type="checkbox" id="howitworks.{{ thing }}">
+                  <label>{{ thing }}</label>
+              </li>
+            {% endfor %}
+        </ul>
+        <div class="progressbar">
+            <div class="progressbar-inner"></div>
+            <div class="progressbar-value"></div>
+        </div>
+    </div>
+</div>
