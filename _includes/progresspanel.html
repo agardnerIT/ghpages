@@ -2,7 +2,7 @@
 {% assign items = site.data[dynamic_key] %}
 
 <div class="floating-panel">
-    <h2>Page Progress 15 | +{{ page.id }}={{ dynamic_key }}=</h2>
+    <h2>Page Progress 16 | +{{ page.id }}={{ dynamic_key }}=</h2>
   <ul>
 {% for item in items %}
   <li>{{ item }}</li>
@@ -12,7 +12,7 @@
   <p>OLD BELOW</p>
     <div class="checklist-progressbar">
         <ul>
-            {% for thing in items %}
+            {% for thing in site.progressbar.howitworks %}
                   <li>
                       <input type="checkbox" id="{{ thing }}">
                       <label>{{ thing }}</label>
