@@ -1,9 +1,9 @@
 <div class="floating-panel">
-    <h2>Page Progress 19 | +{{ page.id }}+{{ page.progressbar_section }}</h2>
+    <h2>Page Progress 20 | +{{ page.id }}+{{ page.progressbar_section }}</h2>
 
     {% assign items = site.config.progressbar[page.progressbar_section] %}
 <ul>
-    {% for item in site[progressbar][howitworks] %}
+    {% for item in site.progressbar.howitworks %}
       <li>{{ item }}</li>
     {% endfor %}
 
