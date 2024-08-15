@@ -6,79 +6,76 @@
     <link rel="shortcut icon" href="{% if site.favicon-url %}{{site.favicon-url}}{% endif %}" type="image/x-icon">
 
     <style>
+        .checklist-progressbar input[type="checkbox"] {
+            cursor: pointer;
+            margin-left: -1.75em;
+            margin-left: -1.75em;
+        }
+        .checklist-progressbar .progressbar {
+            box-sizing: content-box;
+            position: relative;
+            border-radius: 3px;
+            background-color: #ddd;
+            height: 10px;
+            margin-top: 0em;
+            margin-right: 2em;
+        }
+        .checklist-progressbar .progressbar .progressbar-inner {
+            display: block;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0%;
+            height: 100%;
+            background-color: green;
+            transition: all .3s linear;
+        }
 
-            .checklist-progressbar input[type="checkbox"] {
-                cursor: pointer;
-                margin-left: -1.75em;
-                margin-left: -1.75em;
-            }
+        .checklist-progressbar .progressbar .progressbar-value {
+            position: absolute;
+            top: -.25em;
+            right: -2.6em;
+            min-width: 2.6em;
+            width: 15%;
+            font-size: 1em;
+            line-height: 1;
+            text-align: right;
+        }
 
+        .checklist-progressbar input:checked + label {
+            color: rgba(0,0,0,.5);
+            font-style: italic;
+            text-decoration: line-through;
+        }
 
-            .checklist-progressbar .progressbar {
-                box-sizing: content-box;
-                position: relative;
-                border-radius: 3px;
-                background-color: #ddd;
-                height: 10px;
-                margin-top: 0em;
-                margin-right: 2em;
-            }
-            .checklist-progressbar .progressbar .progressbar-inner {
-                display: block;
-                content: "";
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 0%;
-                height: 100%;
-                background-color: green;
-                transition: all .3s linear;
-            }
+         .checklist-progressbar li {
+            position: relative;
+        }
 
-            .checklist-progressbar .progressbar .progressbar-value {
-                position: absolute;
-                top: -.25em;
-                right: -2.6em;
-                min-width: 2.6em;
-                width: 15%;
-                font-size: 1em;
-                line-height: 1;
-                text-align: right;
-            }
+        .checklist-progressbar input + label::before{
+            content:'';
+            display:block;
+            position:absolute;
+            top: 50%;
+            left: 1.5em;
+            width:0%;
+            height:1px;
+            background: green;
+            transition:.25s ease-in-out;
+        }
 
-            .checklist-progressbar input:checked + label {
-                color: rgba(0,0,0,.5);
-                font-style: italic;
-                text-decoration: line-through;
-            }
-
-                 .checklist-progressbar li {
-                position: relative;
-                }
-
-                .checklist-progressbar input + label::before{
-                content:'';
-                display:block;
-                position:absolute;
-                top: 50%;
-                left: 1.5em;
-                width:0%;
-                height:1px;
-                background: green;
-                transition:.25s ease-in-out;
-                }
-
-                .checklist-progressbar input:checked + label::before{
-                width: calc(100% - 3em);
-                }
-            .floating-panel {
-                width: 400px;
-                background: lightblue;
-                position: fixed;
-                top: 10%;
-                right: 2%;
-                border-radius: 20px;
-                padding: 1em;
-            }
-        </style>
+        .checklist-progressbar input:checked + label::before{
+        width: calc(100% - 3em);
+        }
+        .floating-panel {
+            width: 400px;
+            background: lightblue;
+            position: fixed;
+            top: 15%;
+            right: 2%;
+            border-radius: 20px;
+            padding: 1em;
+        }
+    </style>
 </head>
