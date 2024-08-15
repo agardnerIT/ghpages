@@ -5,5 +5,5 @@ layout: page
 
 The "how it works" page...
 
-[] first
-[] second
+[ ] first
+[ ] second
