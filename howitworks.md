@@ -3,7 +3,7 @@ title: How it Works
 layout: page
 ---
 
-The "how it works" page...
+The "how it works" page 2...
 
 <div class="floating-panel">
     <h2>Page Progress</h2>
