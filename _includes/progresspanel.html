@@ -3,7 +3,7 @@
 
     {% assign items = site.config.progressbar[page.progressbar_section] %}
 <ul>
-    {% for item in items %}
+    {% for item in site[progressbar][howitworks] %}
       <li>{{ item }}</li>
     {% endfor %}
 
