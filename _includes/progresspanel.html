@@ -2,7 +2,7 @@
     <h2>Page Progress 19 | +{{ page.id }}+{{ page.progressbar_section }}</h2>
 
     {% assign items = site.config.progressbar[page.progressbar_section] %}
-
+<ul>
     {% for item in items %}
       <li>{{ item }}</li>
     {% endfor %}
