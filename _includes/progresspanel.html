@@ -1,14 +1,11 @@
 <div class="floating-panel">
-    <h2>Page Progress 18 | +{{ page.id }}={{ dynamic_key }}=</h2>
+    <h2>Page Progress 19 | +{{ page.id }}+{{ page.progressbar_section }}</h2>
 
-    {% capture dynamic_key %}progressbar.{{ page.id }}{% endcapture %}
-    {% assign items = site.config[dynamic_key] %}
+    {% assign items = site.config.progressbar[page.progressbar_section] %}
 
-    <ul>
-{% for item in items %}
-  <li>{{ item }}</li>
-{% endfor %}
-</ul>
+    {% for item in items %}
+      <li>{{ item }}</li>
+    {% endfor %}
 
 </ul>
   <p>OLD BELOW</p>
