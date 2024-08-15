@@ -1,10 +1,9 @@
-{% capture dynamic_key %}
-  progressbar.{{ page.id }}
-{% endcapture %}
-{% assign items = site.progressbar.{{ page.id }} %}
+{% capture dynamic_key %}site.progressbar.{{ page.id }}{% endcapture %}
+
+{% assign items = dynamic_key %}
 
 <div class="floating-panel">
-    <h2>Page Progress 11 | +{{ page.id }}+</h2>
+    <h2>Page Progress 12 | +{{ page.id }}+</h2>
     <div class="checklist-progressbar">
         <ul>
             {% for thing in items %}
